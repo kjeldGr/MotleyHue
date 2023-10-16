@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "D46A93F0-AD61-44DA-82B3-618672B8CE42",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "MotleyHue",
+          "name" : "MotleyHue"
+        }
+      ]
+    },
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "MotleyHueTests",
+        "name" : "MotleyHueTests"
+      }
+    }
+  ],
+  "version" : 1
+}

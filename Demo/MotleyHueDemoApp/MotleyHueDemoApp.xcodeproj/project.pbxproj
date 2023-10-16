@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43F5078A2AADE6F30055BF95 /* MotleyHueDemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F507892AADE6F30055BF95 /* MotleyHueDemoAppApp.swift */; };
+		43F5078C2AADE6F30055BF95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F5078B2AADE6F30055BF95 /* ContentView.swift */; };
+		43F5078E2AADE6F40055BF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F5078D2AADE6F40055BF95 /* Assets.xcassets */; };
+		43F5079E2AADE8020055BF95 /* MHButtonPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F507992AADE8020055BF95 /* MHButtonPreviews.swift */; };
+		43F5079F2AADE8020055BF95 /* PreviewComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F5079A2AADE8020055BF95 /* PreviewComponents.swift */; };
+		43F507A02AADE8020055BF95 /* MHTextPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F5079B2AADE8020055BF95 /* MHTextPreviews.swift */; };
+		43F507A12AADE8020055BF95 /* MHIconPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F5079C2AADE8020055BF95 /* MHIconPreviews.swift */; };
+		43F507A22AADE8020055BF95 /* MHStackPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F5079D2AADE8020055BF95 /* MHStackPreviews.swift */; };
+		43F507A62AADE8E10055BF95 /* AppLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 43F507A52AADE8E10055BF95 /* AppLibrary */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43F507862AADE6F30055BF95 /* MotleyHueDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotleyHueDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F507892AADE6F30055BF95 /* MotleyHueDemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotleyHueDemoAppApp.swift; sourceTree = "<group>"; };
+		43F5078B2AADE6F30055BF95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43F5078D2AADE6F40055BF95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43F5078F2AADE6F40055BF95 /* MotleyHueDemoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MotleyHueDemoApp.entitlements; sourceTree = "<group>"; };
+		43F507992AADE8020055BF95 /* MHButtonPreviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHButtonPreviews.swift; sourceTree = "<group>"; };
+		43F5079A2AADE8020055BF95 /* PreviewComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewComponents.swift; sourceTree = "<group>"; };
+		43F5079B2AADE8020055BF95 /* MHTextPreviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHTextPreviews.swift; sourceTree = "<group>"; };
+		43F5079C2AADE8020055BF95 /* MHIconPreviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHIconPreviews.swift; sourceTree = "<group>"; };
+		43F5079D2AADE8020055BF95 /* MHStackPreviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHStackPreviews.swift; sourceTree = "<group>"; };
+		43F507A32AADE80C0055BF95 /* AppLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppLibrary; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F507832AADE6F30055BF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F507A62AADE8E10055BF95 /* AppLibrary in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F5077D2AADE6F30055BF95 = {
+			isa = PBXGroup;
+			children = (
+				43F507A32AADE80C0055BF95 /* AppLibrary */,
+				43F507882AADE6F30055BF95 /* MotleyHueDemoApp */,
+				43F507872AADE6F30055BF95 /* Products */,
+				43F507A42AADE8E10055BF95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		43F507872AADE6F30055BF95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F507862AADE6F30055BF95 /* MotleyHueDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F507882AADE6F30055BF95 /* MotleyHueDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				43F507982AADE8020055BF95 /* Previews */,
+				43F507892AADE6F30055BF95 /* MotleyHueDemoAppApp.swift */,
+				43F5078B2AADE6F30055BF95 /* ContentView.swift */,
+				43F5078D2AADE6F40055BF95 /* Assets.xcassets */,
+				43F5078F2AADE6F40055BF95 /* MotleyHueDemoApp.entitlements */,
+			);
+			path = MotleyHueDemoApp;
+			sourceTree = "<group>";
+		};
+		43F507982AADE8020055BF95 /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+				43F507992AADE8020055BF95 /* MHButtonPreviews.swift */,
+				43F5079A2AADE8020055BF95 /* PreviewComponents.swift */,
+				43F5079B2AADE8020055BF95 /* MHTextPreviews.swift */,
+				43F5079C2AADE8020055BF95 /* MHIconPreviews.swift */,
+				43F5079D2AADE8020055BF95 /* MHStackPreviews.swift */,
+			);
+			path = Previews;
+			sourceTree = "<group>";
+		};
+		43F507A42AADE8E10055BF95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F507852AADE6F30055BF95 /* MotleyHueDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F507952AADE6F40055BF95 /* Build configuration list for PBXNativeTarget "MotleyHueDemoApp" */;
+			buildPhases = (
+				43F507822AADE6F30055BF95 /* Sources */,
+				43F507832AADE6F30055BF95 /* Frameworks */,
+				43F507842AADE6F30055BF95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotleyHueDemoApp;
+			packageProductDependencies = (
+				43F507A52AADE8E10055BF95 /* AppLibrary */,
+			);
+			productName = MotleyHueDemoApp;
+			productReference = 43F507862AADE6F30055BF95 /* MotleyHueDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F5077E2AADE6F30055BF95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					43F507852AADE6F30055BF95 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 43F507812AADE6F30055BF95 /* Build configuration list for PBXProject "MotleyHueDemoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43F5077D2AADE6F30055BF95;
+			productRefGroup = 43F507872AADE6F30055BF95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F507852AADE6F30055BF95 /* MotleyHueDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43F507842AADE6F30055BF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F5078E2AADE6F40055BF95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F507822AADE6F30055BF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F507A12AADE8020055BF95 /* MHIconPreviews.swift in Sources */,
+				43F5078C2AADE6F30055BF95 /* ContentView.swift in Sources */,
+				43F507A02AADE8020055BF95 /* MHTextPreviews.swift in Sources */,
+				43F5079E2AADE8020055BF95 /* MHButtonPreviews.swift in Sources */,
+				43F507A22AADE8020055BF95 /* MHStackPreviews.swift in Sources */,
+				43F5079F2AADE8020055BF95 /* PreviewComponents.swift in Sources */,
+				43F5078A2AADE6F30055BF95 /* MotleyHueDemoAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43F507932AADE6F40055BF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43F507942AADE6F40055BF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		43F507962AADE6F40055BF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MotleyHueDemoApp/MotleyHueDemoApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RL8CZXXMEE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.kpgroot.MotleyHueDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43F507972AADE6F40055BF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MotleyHueDemoApp/MotleyHueDemoApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RL8CZXXMEE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.kpgroot.MotleyHueDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F507812AADE6F30055BF95 /* Build configuration list for PBXProject "MotleyHueDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F507932AADE6F40055BF95 /* Debug */,
+				43F507942AADE6F40055BF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F507952AADE6F40055BF95 /* Build configuration list for PBXNativeTarget "MotleyHueDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F507962AADE6F40055BF95 /* Debug */,
+				43F507972AADE6F40055BF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		43F507A52AADE8E10055BF95 /* AppLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 43F5077E2AADE6F30055BF95 /* Project object */;
+}

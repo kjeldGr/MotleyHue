@@ -1,0 +1,16 @@
+{
+    "name": "MotleyHue",
+    "tokens": "tokens.json",
+    "configs": [
+        {
+            "theme": "MotleyHue",
+            "outputPath": "Demo/MotleyHueDemoApp/AppLibrary/Sources/AppLibrary/DesignTokens/",
+            "missingTokenStrategy": "none"
+        },
+        {
+            "theme": "MotleyHue",
+            "outputPath": "Tests/MotleyHueTests/DesignTokens/",
+            "missingTokenStrategy": "none"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "MotleyHue",
+  "version": "0.9.0",
+  "description": "Swift package for generating SwiftUI views from design system tokens.",
+  "main": "index.js",
+  "repository": "git@github.com:kjeldGr/KGDesignTokens.git",
+  "author": "Kjeld Groot",
+  "license": "MIT",
+  "dependencies": {
+      "mh-token-transform": "git+ssh://git@github.com:kjeldGr/KGDesignTokens-Node.git#0.3.0"
+  }
+}
